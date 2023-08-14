@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^api/customerapi/([a-zA-Z]+)/?$api/customerapi.php?function=$1 [L]
